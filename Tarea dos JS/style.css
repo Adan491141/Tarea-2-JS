@@ -1,0 +1,93 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+h1 {
+    color: #1e90ff;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.menu, .book-list, .search, .search-results {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #1e90ff;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.menu h2, .book-list h2, .search h2, .search-results h2 {
+    color: #1e90ff;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"], input[type="number"] {
+    width: 80%; /* Ajustar el ancho de los campos de entrada */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #1e90ff;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #1e90ff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4682b4;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #1e90ff;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+@media (max-width: 600px) {
+    body {
+        margin: 10px;
+    }
+
+    .menu, .book-list, .search, .search-results {
+        padding: 10px;
+
+    }
+
+    input[type="text"], input[type="number"] {
+        padding: 8px;
+        width: 100%; /* Ajustar el ancho de los campos de entrada en pantallas pequeñas */
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+
+    
+}
